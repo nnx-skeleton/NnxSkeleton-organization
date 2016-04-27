@@ -3,7 +3,6 @@
  * @link    https://github.com/nnx-skeleton/nnx-member-organization
  * @author  Plitakov Dmitry  <plitakov94@gmail.com>
  */
- 
 namespace NnxMember\Organization\PhpUnit\Test;
 
 use Zend\Loader\AutoloaderFactory;
