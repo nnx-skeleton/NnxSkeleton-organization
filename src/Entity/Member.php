@@ -8,7 +8,7 @@
 namespace NnxMember\Organization\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-use Nnx\Doctrine\Annotation\DiscriminatorEntry;
+//use Nnx\Doctrine\Annotation\DiscriminatorEntry;
 
 /**
  * Class Member
