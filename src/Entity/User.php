@@ -8,7 +8,7 @@
 namespace NnxMember\Organization\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-
+use Nnx\Doctrine\Annotation\DiscriminatorEntry;
 use NnxMember\User\Entity\User as BaseUser;
 
 /**
@@ -20,5 +20,4 @@ use NnxMember\User\Entity\User as BaseUser;
  */
 class User extends BaseUser
 {
-
 }

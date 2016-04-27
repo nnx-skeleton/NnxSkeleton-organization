@@ -8,6 +8,7 @@
 namespace NnxMember\Organization\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Nnx\Doctrine\Annotation\DiscriminatorEntry;
 
 /**
  * Class Member
@@ -48,6 +49,4 @@ class Member implements MemberInterface
         $this->id = (int)$id;
         return $this;
     }
-
-
 }

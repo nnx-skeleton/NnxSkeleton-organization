@@ -48,6 +48,4 @@ class Organization implements OrganizationInterface
         $this->id = (int)$id;
         return $this;
     }
-
-
 }

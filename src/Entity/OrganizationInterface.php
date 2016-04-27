@@ -15,5 +15,4 @@ interface OrganizationInterface
 {
 
     public function getId();
-
 }
