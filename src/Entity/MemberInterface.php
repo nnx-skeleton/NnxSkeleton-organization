@@ -5,11 +5,11 @@
  * Date: 27.04.16
  * Time: 14:21
  */
-namespace NnxMember\Organization\Entity;
+namespace NnxSkeleton\Organization\Entity;
 
 /**
  * Interface MemberInterface
- * @package NnxMember\Organization\Entity
+ * @package NnxSkeleton\Organization\Entity
  */
 interface MemberInterface
 {
