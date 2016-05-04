@@ -23,7 +23,7 @@
     "zendframework/zend-loader": "~2.4.0"
    }, 
    "psr-4": {
-      "Nnx\\Member\\Organization\\": "src/"
+      "NnxSkeleton\\Organization\\": "src/"
     },
    "classmap": [
       "./Module.php",
@@ -31,8 +31,8 @@
     ],
    "autoload-dev": {
      "psr-4": {
-       "Nnx\\Member\\Organization\\PhpUnit\\Test\\": "test/phpunit/tests",
-       "Nnx\\Member\\Organization\\PhpUnit\\TestData\\": "test/phpunit/_files"
+       "NnxSkeleton\\Organization\\PhpUnit\\Test\\": "test/phpunit/tests",
+       "NnxSkeleton\\Organization\\PhpUnit\\TestData\\": "test/phpunit/_files"
     },
     "classmap": [
       "./test/phpunit/Bootstrap.php",
