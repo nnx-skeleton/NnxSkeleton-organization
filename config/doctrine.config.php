@@ -5,17 +5,17 @@ namespace NnxMember\Organization;
 return [
     'doctrine' => [
         'driver' => [
-            'NnxMemberOrganizationEntityMember' => [
+            'NnxSkeletonOrganizationEntityMember' => [
                 'cache' => 'array',
                 'paths' => [__DIR__ . '/../src/Entity'],
                 'class' => \Doctrine\ORM\Mapping\Driver\AnnotationDriver::class,
             ],
-            'NnxMemberOrganizationEntityOrganization' => [
+            'NnxSkeletonOrganizationEntityOrganization' => [
                 'cache' => 'array',
                 'paths' => [__DIR__ . '/../src/Entity'],
                 'class' => \Doctrine\ORM\Mapping\Driver\AnnotationDriver::class,
             ],
-            'NnxMemberOrganizationEntityUser' => [
+            'NnxSkeletonOrganizationEntityUser' => [
                 'cache' => 'array',
                 'paths' => [__DIR__ . '/../src/Entity'],
                 'class' => \Doctrine\ORM\Mapping\Driver\AnnotationDriver::class,
