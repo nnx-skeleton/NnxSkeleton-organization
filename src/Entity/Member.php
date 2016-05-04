@@ -5,14 +5,14 @@
  * Date: 27.04.16
  * Time: 14:21
  */
-namespace NnxMember\Organization\Entity;
+namespace NnxSkeleton\Organization\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 //use Nnx\Doctrine\Annotation\DiscriminatorEntry;
 
 /**
  * Class Member
- * @package NnxMember\Organization\Entity
+ * @package NnxSkeleton\Organization\Entity
  *
  * @ORM\Entity()
  * @ORM\Table(name="organization_member")
