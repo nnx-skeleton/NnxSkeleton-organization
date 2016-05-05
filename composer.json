@@ -21,14 +21,17 @@
     "phpunit/phpcov": "~2.0.0",
     "satooshi/php-coveralls": "~1.0.0",
     "zendframework/zend-loader": "~2.4.0"
-   }, 
-   "psr-4": {
-      "NnxSkeleton\\Organization\\": "src/"
+   },
+
+    "autoload": {
+        "psr-4": {
+            "NnxSkeleton\\Organization\\": "src/"
+        },
+        "classmap": [
+            "./Module.php",
+            "src/"
+        ]
     },
-   "classmap": [
-      "./Module.php",
-      "src/"
-    ],
    "autoload-dev": {
      "psr-4": {
        "NnxSkeleton\\Organization\\PhpUnit\\Test\\": "test/phpunit/tests",
