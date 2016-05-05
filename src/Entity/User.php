@@ -16,7 +16,7 @@ use NnxSkeleton\User\Entity\User as BaseUser;
  * @package NnxSkeleton\Organization\Entity
  *
  * @ORM\Entity()
- * @ORM\DiscriminatorEntry(value="organization_user")
+ * @DiscriminatorEntry(value="organization_user")
  */
 class User extends BaseUser
 {
