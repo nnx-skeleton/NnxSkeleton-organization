@@ -8,7 +8,7 @@
 namespace NnxSkeleton\Organization\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-use Nnx\Doctrine\Annotation\DiscriminatorEntry;
+use Nnx\Doctrine\Annotation as NNXD;
 use NnxSkeleton\User\Entity\User as BaseUser;
 
 /**
@@ -16,7 +16,7 @@ use NnxSkeleton\User\Entity\User as BaseUser;
  * @package NnxSkeleton\Organization\Entity
  *
  * @ORM\Entity()
- * @DiscriminatorEntry(value="organization_user")
+ * @NNXD\DiscriminatorEntry(value="organization_user")
  */
 class User extends BaseUser
 {
