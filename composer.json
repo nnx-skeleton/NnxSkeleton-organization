@@ -1,5 +1,5 @@
 {
-    "name": "nnx-skeleton/organization",
+    "name": "nnx-skeleton-member/organization",
     "description": "Service Organization",
     "type": "library",
     "authors": [
@@ -25,7 +25,7 @@
 
     "autoload": {
         "psr-4": {
-            "NnxSkeleton\\Organization\\": "src/"
+            "NnxSkeletonMember\\Organization\\": "src/"
         },
         "classmap": [
             "./Module.php",
@@ -34,8 +34,8 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "NnxSkeleton\\Organization\\PhpUnit\\Test\\": "test/phpunit/tests",
-            "NnxSkeleton\\Organization\\PhpUnit\\TestData\\": "test/phpunit/_files"
+            "NnxSkeletonMember\\Organization\\PhpUnit\\Test\\": "test/phpunit/tests",
+            "NnxSkeletonMember\\Organization\\PhpUnit\\TestData\\": "test/phpunit/_files"
         },
         "classmap": [
             "./test/phpunit/Bootstrap.php",
