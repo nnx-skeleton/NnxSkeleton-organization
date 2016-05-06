@@ -5,13 +5,13 @@
  * Date: 27.04.16
  * Time: 14:22
  */
-namespace NnxSkeleton\Organization\Entity;
+namespace NnxSkeletonMember\Organization\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
 /**
  * Class Organization
- * @package NnxSkeleton\Organization\Entity
+ * @package NnxSkeletonMember\Organization\Entity
  *
  * @ORM\Entity()
  * @ORM\Table(name="organization")

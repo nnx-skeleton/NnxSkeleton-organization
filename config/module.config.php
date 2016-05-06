@@ -5,7 +5,7 @@
  * Date: 29.04.16
  * Time: 12:32
  */
-namespace NnxSkeleton\Organization;
+namespace NnxSkeletonMember\Organization;
 
 $config = [
 

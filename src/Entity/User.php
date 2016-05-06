@@ -5,7 +5,7 @@
  * Date: 27.04.16
  * Time: 14:25
  */
-namespace NnxSkeleton\Organization\Entity;
+namespace NnxSkeletonMember\Organization\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use Nnx\Doctrine\Annotation as NNXD;
@@ -13,7 +13,7 @@ use NnxSkeleton\User\Entity\User as BaseUser;
 
 /**
  * Class User
- * @package NnxSkeleton\Organization\Entity
+ * @package NnxSkeletonMember\Organization\Entity
  *
  * @ORM\Entity()
  * @NNXD\DiscriminatorEntry(value="organization_user")
