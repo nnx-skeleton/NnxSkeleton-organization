@@ -9,7 +9,7 @@ namespace NnxSkeletonMember\Organization\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use Nnx\Doctrine\Annotation as NNXD;
-use NnxSkeleton\User\Entity\User as BaseUser;
+use NnxSkeletonMember\User\Entity\User as BaseUser;
 
 /**
  * Class User

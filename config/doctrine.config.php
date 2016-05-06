@@ -1,6 +1,6 @@
 <?php
 
-namespace NnxSkeleton\Organization;
+namespace NnxSkeletonMember\Organization;
 
 return [
     'doctrine' => [
