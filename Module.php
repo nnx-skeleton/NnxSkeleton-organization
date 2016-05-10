@@ -22,7 +22,7 @@ class Module implements
      *
      * @var string
      */
-    const CONFIG_KEY = 'nnx_skeleton';
+    const CONFIG_KEY = 'nnx_organization';
 
     /**
      * Имя модуля
