@@ -3,6 +3,9 @@
 namespace NnxSkeletonMember\Organization;
 
 return [
+    Module::CONFIG_KEY => [
+        'objectManagerName' => 'doctrine.entitymanager.nnx_skeleton_member_organization'
+    ],
     'doctrine' => [
         'driver' => [
             'NnxSkeletonMemberOrganizationEntity' => [
